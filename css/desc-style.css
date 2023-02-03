@@ -1,0 +1,44 @@
+.description {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  text-align: center;
+}
+.description a {
+  text-transform: none;
+  font-weight: 200;
+  letter-spacing: 0;
+  font-size: 40px;
+}
+.description :nth-child(4) {
+  margin: 100px 0 0 0;
+  animation: bounce 2s infinite linear;
+}
+.description :nth-child(3) {
+  font-size: 22px;
+  font-weight: 200;
+}
+@keyframes bounce {
+  0% {
+    margin: 90px 0 0 0;
+  }
+  50% {
+    margin: 100px 0 0 0;
+  }
+  100% {
+    margin: 90px 0 0 0;
+  }
+}
+.description .phuket {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 170px 0 0 0;
+}
+.description .big-text {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 24px 0 0 0;
+  letter-spacing: 0.5px;
+  font-size: 65px;
+}

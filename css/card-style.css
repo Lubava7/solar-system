@@ -1,0 +1,30 @@
+.card-container {
+  height: 415px;
+  width: 350px;
+  text-align: center;
+
+  cursor: pointer;
+}
+.img-container {
+  width: 95%;
+  height: 280px;
+  transition: 1s all;
+  background-position: center center;
+  background-size: 150%;
+}
+.text-container {
+  line-height: 2;
+  margin-top: 15px;
+}
+.text-container p {
+  margin: 0;
+}
+.text-container h5 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+}
+.text-container .hybrid {
+  font-size: 12px;
+  font-weight: 300;
+}
