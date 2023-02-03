@@ -5,7 +5,7 @@ class Card {
 
     this.el.onclick = this.showModal.bind(this); //чтобы связать контекст с модалкой
 
-    this.src = `../images/${path}`; //задаем значения параметров состояния
+    this.src = `/solar-system/images/${path}`; //задаем значения параметров состояния
     this.descName = descName; //не вносим эти изменения в сам this.el чтобы не засорять его,а только в сам this, для гибкости использования
     this.hybrid = hybrid;
     this.price = price;
