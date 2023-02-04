@@ -2,7 +2,7 @@ class PopUp {
   constructor(path, title, price, description, learn_more) {
     this.el = document.createElement("div");
     this.el.classList.add("modal");
-    this.src = `../images/${path}`;
+    this.src = `/solar-system/images/${path}`;
     this.title = title;
     this.price = price;
     this.description = description;
